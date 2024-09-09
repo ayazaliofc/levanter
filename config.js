@@ -28,11 +28,22 @@ module.exports = {
           logging: false,
         }),
   HANDLERS: (process.env.PREFIX || '^[.,!]').trim(),
-  SUDO: process.env.SUDO || '',
+  SUDO: process.env.SUDO || '923032112917',
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME,
   HEROKU_API_KEY: process.env.HEROKU_API_KEY,
   BRANCH: 'master',
-  STICKER_PACKNAME: process.env.STICKER_PACKNAME || '❤️,LyFE',
+  STICKER_PACKNAME: process.env.STICKER_PACKNAME || ',⤹『ɳoɓꀤʈɑ 👑🖤🎧 』⸙
+
+
+🪻 안녕 𓆩♥︎𓆪 당신 💗
+
+💎당신의 𓆩♥︎𓆪꿈의❄️
+
+🌩️ 𓆩남자𓆪 ⤹³ 𝐓ʜ͜͡ɚ̚ ☔
+
+🧃아야즈 𓆩輪𓆪 앨리🧋
+
+𝐈ɴsᴛᴀ : @ayazaliofc 💌',
   ALWAYS_ONLINE: process.env.ALWAYS_ONLINE,
   LOG_MSG: toBool(process.env.LOG_MSG) || false,
   RMBG_KEY: process.env.RMBG_KEY || 'null',
@@ -50,7 +61,7 @@ module.exports = {
   MAX_UPLOAD: process.env.MAX_UPLOAD || 230,
   REJECT_CALL: process.env.REJECT_CALL,
   VPS: toBool(process.env.VPS),
-  AUTO_STATUS_VIEW: (process.env.AUTO_STATUS_VIEW || 'false').trim(),
+  AUTO_STATUS_VIEW: (process.env.AUTO_STATUS_VIEW || 'no-dl').trim(),
   SEND_READ: process.env.SEND_READ,
   KOYEB: toBool(process.env.KOYEB),
   KOYEB_NAME: (process.env.KOYEB_NAME || '').trim(),
