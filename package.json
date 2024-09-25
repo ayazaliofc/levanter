@@ -1,12 +1,12 @@
 {
   "name": "levanter",
-  "version": "1.0.4",
+  "version": "2.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "pm2 start . --attach --name levanter",
     "stop": "pm2 stop levanter",
-    "postinstall": "node -e \"try { require('sharp') } catch (e) { process.exit(1); }\" || yarn add --ignore-engines sharp"
+    "postinstall": "node -e \"try { require('sharp') } catch (e) { process.exit(1); }\" || yarn add --ignore-engines sharp@0.33.5"
   },
   "author": "",
   "license": "ISC",
@@ -42,6 +42,6 @@
     "simple-git": "^3.16.1",
     "sqlite3": "^5.0.11",
     "translate-google-api": "^1.0.4",
-    "youtubei.js": "^10.4.0"
+    "youtubei.js": "^10.5.0"
   }
 }
