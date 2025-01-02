@@ -28,11 +28,23 @@ module.exports = {
           logging: false,
         }),
   PREFIX: (process.env.PREFIX || '^[.,!]').trim(),
-  SUDO: process.env.SUDO || '',
+  SUDO: process.env.SUDO || '923032112917',
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME,
   HEROKU_API_KEY: process.env.HEROKU_API_KEY,
   BRANCH: 'master',
-  STICKER_PACKNAME: process.env.STICKER_PACKNAME || '❤️,LyFE',
+  STICKER_PACKNAME: process.env.STICKER_PACKNAME || '『ɳoɓꀤʈɑ 👑🖤🎧 』⸙
+
+
+
+ ⏤͟͟͞͞🤍诶儿 ᯤ 诶艾 ⃟⃟⃟⃟💸
+
+ ⏤͟͟͞͞🧃诶儿 ᯤ 诶艾 ⃟⃟⃟⃟🌕
+
+ ⏤͟͟͞͞🪻诶儿 ᯤ 诶艾 ⃟⃟⃟⃟🍒
+
+ ⏤͟͟͞͞☘️诶儿 ᯤ 诶艾 ⃟⃟⃟⃟🌸
+
+ 𝐈ɴsᴛᴀ: @ayazaliofc 💌',
   ALWAYS_ONLINE: process.env.ALWAYS_ONLINE,
   LOG_MSG: process.env.LOG_MSG || 'false',
   RMBG_KEY: process.env.RMBG_KEY || 'null',
